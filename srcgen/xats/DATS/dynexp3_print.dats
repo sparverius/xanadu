@@ -13,12 +13,12 @@
 ** the terms of  the GNU GENERAL PUBLIC LICENSE (GPL) as published by the
 ** Free Software Foundation; either version 3, or (at  your  option)  any
 ** later version.
-** 
+**
 ** ATS is distributed in the hope that it will be useful, but WITHOUT ANY
 ** WARRANTY; without  even  the  implied  warranty  of MERCHANTABILITY or
 ** FITNESS FOR A PARTICULAR PURPOSE.  See the  GNU General Public License
 ** for more details.
-** 
+**
 ** You  should  have  received  a  copy of the GNU General Public License
 ** along  with  ATS;  see the  file COPYING.  If not, please write to the
 ** Free Software Foundation,  51 Franklin Street, Fifth Floor, Boston, MA
@@ -286,10 +286,10 @@ x0.node() of
 //
 implement
 print_d3exp(x0) =
-fprint_d3exp(stdout_ref, x0) 
+fprint_d3exp(stdout_ref, x0)
 implement
 prerr_d3exp(x0) =
-fprint_d3exp(stderr_ref, x0) 
+fprint_d3exp(stderr_ref, x0)
 //
 implement
 fprint_d3exp
@@ -681,10 +681,10 @@ fprint!
 //
 implement
 print_ti3arg(x0) =
-fprint_ti3arg(stdout_ref, x0) 
+fprint_ti3arg(stdout_ref, x0)
 implement
 prerr_ti3arg(x0) =
-fprint_ti3arg(stderr_ref, x0) 
+fprint_ti3arg(stderr_ref, x0)
 //
 implement
 fprint_ti3arg
@@ -701,10 +701,10 @@ case+ x0 of
 //
 implement
 print_d3ecl(x0) =
-fprint_d3ecl(stdout_ref, x0) 
+fprint_d3ecl(stdout_ref, x0)
 implement
 prerr_d3ecl(x0) =
-fprint_d3ecl(stderr_ref, x0) 
+fprint_d3ecl(stderr_ref, x0)
 //
 local
 
